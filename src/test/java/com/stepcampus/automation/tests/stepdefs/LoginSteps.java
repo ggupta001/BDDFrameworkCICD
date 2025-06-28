@@ -25,7 +25,8 @@ public class LoginSteps {
 
     @Then("User should land on Home Page")
     public void user_should_land_on_home_page() {
-        Assert.assertTrue(DriverFactory.getDriver().getTitle().contains("Logged In Successfully"));
+    	String title=DriverFactory.getDriver().getTitle();
+    	Assert.assertEquals(title,"Logged In Successfully");
         Log.info("Landed on Dashboard page");
     }
 }

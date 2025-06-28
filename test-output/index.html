@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -123,6 +123,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.stepcampus.automation.tests.runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Valid login to application&quot;, &quot;Login functionality&quot;)">runScenario("Valid login to application", "Login functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.stepcampus.automation.tests.runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Valid login and Home page validation&quot;, &quot;Home Page Validation&quot;)">runScenario("Valid login and Home page validation", "Home Page Validation")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -191,6 +196,16 @@
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Valid login and Home page validation&quot;, &quot;Home Page Validation&quot;)">
+                  </a> <!-- runScenario("Valid login and Home page validation", "Home Page Validation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Valid login and Home page validation","Home Page Validation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
@@ -253,24 +268,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.stepcampus.automation.tests.runners.TestRunner')
-data.setCell(0, 3, 11103);
+data.setCell(0, 3, 14022);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'com.stepcampus.automation.tests.runners.TestRunner')
-data.setCell(1, 3, 9793);
+data.setCell(1, 3, 11726);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'com.stepcampus.automation.tests.runners.TestRunner')
-data.setCell(2, 3, 9791);
+data.setCell(2, 3, 11308);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.stepcampus.automation.tests.runners.TestRunner')
+data.setCell(3, 3, 8915);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -298,28 +317,32 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.stepcampus.automation.tests.runners.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@3148f668)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@1bd39d3c)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("Valid login to application", "Login functionality")</span>
-                <span class="method-start">1173 ms</span>
+                <span class="method-start">988 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Valid login and Home page validation", "Home Page Validation")</span>
+                <span class="method-start">988 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Valid login to application", "Login functionality")</span>
-                <span class="method-start">1174 ms</span>
+                <span class="method-start">989 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">runScenario("Valid login to application", "Login functionality")</span>
-                <span class="method-start">1174 ms</span>
+                <span class="method-start">989 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">12284 ms</span>
+                <span class="method-start">15014 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

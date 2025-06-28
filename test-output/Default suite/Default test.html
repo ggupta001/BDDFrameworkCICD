@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jun 25 23:42:38 IST 2025</td>
+<td>Started on:</td><td>Sat Jun 28 12:08:52 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>13 seconds (13385 ms)</td>
+<tr><td>Total time:</td><td>12 seconds (12701 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,55 +76,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.stepcampus.automation.tests.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.stepcampus.automation.tests.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid login to application", "Login functionality"</td>
-<td><div><pre>java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at com.stepcampus.automation.tests.stepdefs.LoginSteps.user_should_land_on_home_page(LoginSteps.java:28)
-	at ✽.User should land on Home Page(classpath:features/login.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1469968585", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1469968585'><pre>java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at com.stepcampus.automation.tests.stepdefs.LoginSteps.user_should_land_on_home_page(LoginSteps.java:28)
-	at ✽.User should land on Home Page(classpath:features/login.feature:6)
+<td title='com.stepcampus.automation.tests.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.stepcampus.automation.tests.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid login and Home page validation", "Home Page Validation"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepcampus.automation.tests.stepdefs.HomeSteps.user_is_on_HomePage(HomeSteps.java:16)
+	at ✽.User is on Home Page(classpath:features/home.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1548822311", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1548822311'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepcampus.automation.tests.stepdefs.HomeSteps.user_is_on_HomePage(HomeSteps.java:16)
+	at ✽.User is on Home Page(classpath:features/home.feature:6)
 </pre></div></td>
 <td>10</td>
-<td>com.stepcampus.automation.tests.runners.TestRunner@a8ef162</td></tr>
-<tr>
-<td title='com.stepcampus.automation.tests.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.stepcampus.automation.tests.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid login to application", "Login functionality"</td>
-<td><div><pre>java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at com.stepcampus.automation.tests.stepdefs.LoginSteps.user_should_land_on_home_page(LoginSteps.java:28)
-	at ✽.User should land on Home Page(classpath:features/login.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1536255894", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1536255894'><pre>java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at com.stepcampus.automation.tests.stepdefs.LoginSteps.user_should_land_on_home_page(LoginSteps.java:28)
-	at ✽.User should land on Home Page(classpath:features/login.feature:6)
-</pre></div></td>
-<td>10</td>
-<td>com.stepcampus.automation.tests.runners.TestRunner@a8ef162</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.stepcampus.automation.tests.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.stepcampus.automation.tests.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid login to application", "Login functionality"</td>
-<td></td>
-<td>12</td>
-<td>com.stepcampus.automation.tests.runners.TestRunner@a8ef162</td></tr>
+<td>com.stepcampus.automation.tests.runners.TestRunner@61710c6</td></tr>
 </table><p>
 </body>
 </html>

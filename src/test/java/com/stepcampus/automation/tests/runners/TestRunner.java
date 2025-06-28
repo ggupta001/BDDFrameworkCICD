@@ -7,6 +7,7 @@ import io.cucumber.testng.CucumberOptions;
     glue = {"com.stepcampus.automation.tests.stepdefs", "com.stepcampus.automation.tests.hooks"},
     plugin = {"pretty", "html:target/cucumber-html-report"},
     monochrome = true
+   // tags = "@homePage"
     )
 public class TestRunner extends AbstractTestNGCucumberTests  {
 	 @Override

@@ -2,12 +2,13 @@ package com.stepcampus.automation.tests.stepdefs;
 
 
 import io.cucumber.java.en.*;
-import org.junit.Assert;
+import org.testng.Assert;
 
 import com.stepcampus.automation.base.DriverFactory;
 import com.stepcampus.automation.pages.LoginPage;
 import com.stepcampus.automation.utils.Log;
 import io.cucumber.java.en.*;
+import org.testng.Assert;
 
 public class LoginSteps {
 	LoginPage loginPage;
@@ -26,7 +27,7 @@ public class LoginSteps {
     @Then("User should land on Home Page")
     public void user_should_land_on_home_page() {
     	String title=DriverFactory.getDriver().getTitle();
-    	Assert.assertEquals(title,"Logged In Successfully");
+    	Assert.assertEquals(title,"Logged In Successfully | Practice Test Automation");
         Log.info("Landed on Dashboard page");
     }
 }

@@ -144,3 +144,40 @@
 2025-06-26 01:06:27 INFO  com.stepcampus.automation.utils.Log - Login attempted with: student
 2025-06-26 01:06:27 INFO  com.stepcampus.automation.utils.Log - Landed on Dashboard page
 2025-06-26 01:06:27 INFO  com.stepcampus.automation.utils.Log - Browser closed
+2025-06-28 11:26:43 INFO  com.stepcampus.automation.utils.Log - Browser launched
+2025-06-28 11:26:43 INFO  com.stepcampus.automation.utils.Log - Browser launched
+2025-06-28 11:26:43 INFO  com.stepcampus.automation.utils.Log - Browser launched
+2025-06-28 11:26:44 INFO  com.stepcampus.automation.utils.Log - Login attempted with: incorrectUser
+2025-06-28 11:26:44 INFO  com.stepcampus.automation.utils.Log - Login attempted with: student
+2025-06-28 11:26:45 INFO  com.stepcampus.automation.utils.Log - Browser closed
+2025-06-28 11:26:45 INFO  com.stepcampus.automation.utils.Log - Browser closed
+2025-06-28 11:26:46 INFO  com.stepcampus.automation.utils.Log - Login attempted with: student
+2025-06-28 11:26:46 INFO  com.stepcampus.automation.utils.Log - Browser closed
+2025-06-28 11:28:06 INFO  com.stepcampus.automation.utils.Log - Browser launched
+2025-06-28 11:28:06 INFO  com.stepcampus.automation.utils.Log - Browser launched
+2025-06-28 11:28:06 INFO  com.stepcampus.automation.utils.Log - Browser launched
+2025-06-28 11:28:07 INFO  com.stepcampus.automation.utils.Log - Login attempted with: incorrectUser
+2025-06-28 11:28:08 INFO  com.stepcampus.automation.utils.Log - Login attempted with: student
+2025-06-28 11:28:08 INFO  com.stepcampus.automation.utils.Log - Browser closed
+2025-06-28 11:28:08 INFO  com.stepcampus.automation.utils.Log - Browser closed
+2025-06-28 11:28:09 INFO  com.stepcampus.automation.utils.Log - Login attempted with: student
+2025-06-28 11:28:10 INFO  com.stepcampus.automation.utils.Log - Browser closed
+2025-06-28 11:29:50 INFO  com.stepcampus.automation.utils.Log - Browser launched
+2025-06-28 11:29:50 INFO  com.stepcampus.automation.utils.Log - Browser launched
+2025-06-28 11:29:50 INFO  com.stepcampus.automation.utils.Log - Browser launched
+2025-06-28 11:29:51 INFO  com.stepcampus.automation.utils.Log - Login attempted with: incorrectUser
+2025-06-28 11:29:51 INFO  com.stepcampus.automation.utils.Log - Login attempted with: student
+2025-06-28 11:29:51 INFO  com.stepcampus.automation.utils.Log - Browser closed
+2025-06-28 11:29:51 INFO  com.stepcampus.automation.utils.Log - Browser closed
+2025-06-28 11:29:53 INFO  com.stepcampus.automation.utils.Log - Login attempted with: student
+2025-06-28 11:29:53 INFO  com.stepcampus.automation.utils.Log - Browser closed
+2025-06-28 11:31:45 INFO  com.stepcampus.automation.utils.Log - Browser launched
+2025-06-28 11:31:45 INFO  com.stepcampus.automation.utils.Log - Browser launched
+2025-06-28 11:31:45 INFO  com.stepcampus.automation.utils.Log - Browser launched
+2025-06-28 11:31:46 INFO  com.stepcampus.automation.utils.Log - Login attempted with: incorrectUser
+2025-06-28 11:31:46 INFO  com.stepcampus.automation.utils.Log - Login attempted with: student
+2025-06-28 11:31:46 INFO  com.stepcampus.automation.utils.Log - Browser closed
+2025-06-28 11:31:46 INFO  com.stepcampus.automation.utils.Log - Browser closed
+2025-06-28 11:31:47 INFO  com.stepcampus.automation.utils.Log - Login attempted with: student
+2025-06-28 11:31:47 INFO  com.stepcampus.automation.utils.Log - Landed on Dashboard page
+2025-06-28 11:31:48 INFO  com.stepcampus.automation.utils.Log - Browser closed
